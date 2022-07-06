@@ -1,6 +1,6 @@
 ---
 id: cyeh1
-name: sdadsadad
+name: test
 file_version: 1.0.2
 app_version: 0.9.1-4
 file_blobs:

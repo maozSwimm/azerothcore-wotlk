@@ -4,6 +4,7 @@ name: sada
 file_version: 1.0.2
 app_version: 0.9.2-2
 file_blobs:
+  .gitignore: 756f815876be97720663ed59d568a750581f02c2
   .editorconfig: 4a0e9e61418e3355eec3cf980a14341b546658c5
 ---
 
@@ -16,6 +17,34 @@ s;lamdlkaml\\ma
 
 
 
+
+<br/>
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 .gitignore
+```gitignore
+⬜ 9      !/modules/*.sh
+⬜ 10     !/modules/CMakeLists.txt
+⬜ 11     !/modules/*.h
+🟩 12     !/modules/*.cmake
+🟩 13     /build*/
+🟩 14     /var/*
+🟩 15     !/var/build/.gitkeep
+🟩 16     !/var/ccache/.gitkeep
+🟩 17     /env/dist/*
+🟩 18     !/env/dist/.gitkeep
+🟩 19     /env/user/*
+🟩 20     /env/docker/*
+🟩 21     !/env/docker/bin/.gitkeep
+🟩 22     !/env/docker/data/.gitkeep
+🟩 23     !/env/docker/etc/authserver.conf.dockerdist
+🟩 24     !/env/docker/etc/worldserver.conf.dockerdist
+⬜ 25     !/env/docker/logs/.gitkeep
+⬜ 26     /.env*
+⬜ 27     /apps/joiner
+```
+
+<br/>
 
 sdjan;xa
 
